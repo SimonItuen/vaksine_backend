@@ -1,0 +1,23 @@
+{
+  "name": "vaksine-backend",
+  "version": "1.0.0",
+  "description": "A backend to serve all frontend platforms of vaksine (android, ios and web)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "prod": "SET NODE_ENV=production & nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
